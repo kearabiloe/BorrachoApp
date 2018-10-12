@@ -17,7 +17,7 @@ export class TabsPage {
 
   rentalsRoot = 'RentalsPage';
   rewardsRoot = 'RewardsPage';
-  moreRoot = 'SettingsPage'
+  laundryRoot = 'LaundryPage'
 
 
   constructor(public navCtrl: NavController) {}
