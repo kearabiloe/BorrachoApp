@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.ionic.starter" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>AirtimeConverters</name>
-    <description>An awesome Ionic/Cordova app.</description>
-    <author email="hi@ionicframework" href="http://ionicframework.com/">Ionic Framework Team</author>
+<widget id="io.borracho.app" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>BorrachoApp</name>
+    <description>Everything Borracho In One App.</description>
+    <author email="borrachoproperties@gmail.com" href="http://borracho.gq/">Borracho Properties Team</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
