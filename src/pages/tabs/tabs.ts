@@ -8,7 +8,7 @@ import { IonicPage, NavController } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+@IonicPage({segment: 'home'})
 @Component({
   selector: 'page-tabs',
   templateUrl: 'tabs.html'

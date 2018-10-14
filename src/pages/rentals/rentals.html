@@ -8,15 +8,15 @@
 
   <ion-navbar color="primary">
     <ion-buttons start>
-      <button ion-button icon-only >
-        <ion-icon name="mail"></ion-icon>
+      <button ion-button icon-only (click)="openChats()">
+        <ion-icon name="mail" ></ion-icon>
+        <ion-badge color="danger">2</ion-badge>
       </button>
-      <ion-badge color="danger">2</ion-badge>
-    </ion-buttons>
+    </ion-buttons> 
     <ion-title>Rentals</ion-title>
     <ion-buttons end>
-      <button ion-button icon-only color="light">
-        <ion-icon name="more"></ion-icon>
+      <button ion-button icon-only menuToggle>
+        <ion-icon name="menu"></ion-icon>
       </button>
     </ion-buttons>
   </ion-navbar>
@@ -44,7 +44,7 @@
 <div [ngSwitch]="rentalsSegment">
   <ion-list *ngSwitchCase="'all'">
   	<ion-item-sliding>
-	  <ion-item>
+	  <ion-item (click)="openRental()">
 	    <ion-thumbnail item-start>
 	      <img src="assets/imgs/logo.png">
 	    </ion-thumbnail>

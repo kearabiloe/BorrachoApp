@@ -8,7 +8,8 @@ import { IonicPage, NavController, NavParams } from 'ionic-angular';
  * Ionic pages and navigation.
  */
 
-@IonicPage()
+
+@IonicPage({segment:"rentals"})
 @Component({
   selector: 'page-rentals',
   templateUrl: 'rentals.html',
@@ -24,4 +25,13 @@ export class RentalsPage {
     console.log('ionViewDidLoad RentalsPage');
   }
 
+  openChats(){
+  	console.log('OpenChats Clicked');
+  	this.navCtrl.push('ChatsPage')
+  }
+
+  openRental(rental){
+    console.log(rental);
+    this.navCtrl.push('RentalDetailPage', {id: rental})
+  }  
 }
